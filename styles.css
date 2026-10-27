@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: antiquewhite;
+
+}
+
+
+.contenedor-acordeon{
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: rgb(159, 2, 2);
+    padding: 15px;
+    color: aliceblue;
+    margin: 100px auto;
+    font-family: Arial, sans-serif;
+}
+
+.item-acordeon{
+   
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: aliceblue;
+    margin: 100px auto;
+    font-family: Arial, sans-serif;
+     border: 2px solid black;
+     box-sizing: border-box;
+
+}
+
+
+.respuesta{
+    display: none;
+    padding: 0 15px 15px 15px;
+    color: white;
+}
+
+/* 
+esto seria como un interuptor
+*/
+.respuesta.mostrar{
+    display: block;
+}
+
+.pregunta{
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
